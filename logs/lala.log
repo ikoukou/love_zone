@@ -1,0 +1,1425 @@
+INFO 2023-12-12 11:00:42,853 autoreload 16792 11528 Watching for file changes with StatReloader
+INFO 2023-12-12 11:00:46,015 basehttp 16792 20864 "GET /login/ HTTP/1.1" 200 638
+INFO 2023-12-12 11:00:46,346 basehttp 16792 20864 - Broken pipe from ('127.0.0.1', 51000)
+INFO 2023-12-12 11:00:46,348 basehttp 16792 25876 "GET /login/ HTTP/1.1" 200 638
+INFO 2023-12-12 11:00:46,377 basehttp 16792 25876 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-12 11:00:46,411 basehttp 16792 25876 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+INFO 2023-12-12 11:00:46,524 basehttp 16792 25876 "GET /login/ HTTP/1.1" 200 638
+INFO 2023-12-12 11:00:46,562 basehttp 16792 25876 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-12 11:00:46,595 basehttp 16792 25876 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+INFO 2023-12-12 11:00:46,678 basehttp 16792 25876 "GET /login/ HTTP/1.1" 200 638
+INFO 2023-12-12 11:00:46,718 basehttp 16792 25876 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-12 11:00:46,776 basehttp 16792 25876 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+INFO 2023-12-13 11:17:40,007 autoreload 26148 13848 Watching for file changes with StatReloader
+INFO 2023-12-13 11:17:42,620 basehttp 26148 23812 "GET /login/ HTTP/1.1" 200 638
+INFO 2023-12-13 11:17:43,035 basehttp 26148 23812 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-13 11:17:43,063 basehttp 26148 23812 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+WARNING 2023-12-13 15:58:14,293 log 26148 9268 Not Found: /favicon.ico
+WARNING 2023-12-13 15:58:14,295 basehttp 26148 9268 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 15:58:14,769 log 26148 9268 Not Found: /favicon.ico
+WARNING 2023-12-13 15:58:14,771 basehttp 26148 9268 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 15:58:15,030 basehttp 26148 23244 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-12-13 15:58:15,122 basehttp 26148 23244 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-12-13 15:58:15,178 basehttp 26148 23244 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-12-13 15:58:15,180 basehttp 26148 17908 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-12-13 15:58:15,193 basehttp 26148 23244 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-12-13 15:58:15,194 basehttp 26148 24944 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-12-13 15:58:15,195 basehttp 26148 17908 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-12-13 15:58:15,195 basehttp 26148 25384 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-12-13 15:58:15,196 basehttp 26148 7652 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-12-13 15:59:25,272 autoreload 4596 12276 Watching for file changes with StatReloader
+INFO 2023-12-13 15:59:28,017 basehttp 4596 23888 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-12-13 15:59:32,645 basehttp 4596 23888 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-12-13 15:59:32,711 basehttp 4596 23888 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 15:59:33,197 basehttp 4596 23888 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-12-13 15:59:33,248 basehttp 4596 20284 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-12-13 15:59:33,265 basehttp 4596 13800 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-12-13 15:59:42,931 basehttp 4596 13800 "GET / HTTP/1.1" 200 1447
+INFO 2023-12-13 15:59:42,976 basehttp 4596 13800 "GET /static/scripts/sakura.js HTTP/1.1" 304 0
+INFO 2023-12-13 15:59:44,648 basehttp 4596 13800 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 15:59:48,941 basehttp 4596 13800 "GET /admin/password_change/ HTTP/1.1" 200 6477
+INFO 2023-12-13 15:59:48,991 basehttp 4596 13800 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-12-13 15:59:49,016 basehttp 4596 13800 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-12-13 15:59:51,114 basehttp 4596 13800 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 15:59:56,845 basehttp 4596 13800 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 15:59:57,930 basehttp 4596 13800 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 16:00:00,593 basehttp 4596 13800 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:00:00,645 basehttp 4596 13800 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-12-13 16:00:00,658 basehttp 4596 10072 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-12-13 16:00:00,663 basehttp 4596 10168 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-12-13 16:00:00,664 basehttp 4596 13800 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-12-13 16:00:00,664 basehttp 4596 3880 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-12-13 16:00:00,665 basehttp 4596 20284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:00:00,673 basehttp 4596 10072 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-12-13 16:00:00,679 basehttp 4596 10168 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-12-13 16:00:00,680 basehttp 4596 23888 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-12-13 16:00:00,692 basehttp 4596 13800 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-12-13 16:00:00,694 basehttp 4596 23888 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-12-13 16:00:00,740 basehttp 4596 23888 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-12-13 16:00:00,768 basehttp 4596 23888 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-12-13 16:01:49,824 basehttp 4596 23888 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:01:49,869 basehttp 4596 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:01:53,550 basehttp 4596 23888 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:01:53,589 basehttp 4596 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-12-13 16:02:00,630 log 4596 22292 Not Found: /favicon.ico
+WARNING 2023-12-13 16:02:00,633 basehttp 4596 22292 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:02:01,224 log 4596 22292 Not Found: /favicon.ico
+WARNING 2023-12-13 16:02:01,225 basehttp 4596 22292 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:02:01,828 log 4596 22292 Not Found: /favicon.ico
+WARNING 2023-12-13 16:02:01,829 basehttp 4596 22292 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:02:02,440 log 4596 22292 Not Found: /favicon.ico
+WARNING 2023-12-13 16:02:02,441 basehttp 4596 22292 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 16:02:02,571 basehttp 4596 23888 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 16:02:06,120 basehttp 4596 23888 "GET /admin/auth/ HTTP/1.1" 200 5176
+INFO 2023-12-13 16:02:07,376 basehttp 4596 23888 "GET /admin/auth/ HTTP/1.1" 200 5176
+INFO 2023-12-13 16:02:10,128 basehttp 4596 23888 "GET /admin/auth/group/add/ HTTP/1.1" 200 10752
+INFO 2023-12-13 16:02:10,179 basehttp 4596 10072 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-12-13 16:02:10,182 basehttp 4596 13800 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-12-13 16:02:10,186 basehttp 4596 10168 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-12-13 16:02:10,187 basehttp 4596 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:02:10,197 basehttp 4596 23888 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-12-13 16:02:10,282 basehttp 4596 23888 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-12-13 16:02:10,284 basehttp 4596 13800 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-12-13 16:02:10,285 basehttp 4596 10168 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-12-13 16:02:37,361 basehttp 4596 13800 "GET /admin/auth/ HTTP/1.1" 200 5176
+INFO 2023-12-13 16:02:38,868 basehttp 4596 13800 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:02:38,915 basehttp 4596 13800 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:03:49,642 basehttp 4596 18980 "GET /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2023-12-13 16:03:49,685 basehttp 4596 18980 "GET /admin/login/?next=/admin/auth/group/ HTTP/1.1" 200 4203
+INFO 2023-12-13 16:03:49,728 basehttp 4596 2664 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-12-13 16:03:49,737 basehttp 4596 18980 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-12-13 16:03:49,737 basehttp 4596 11148 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-12-13 16:03:49,739 basehttp 4596 26616 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-12-13 16:03:49,740 basehttp 4596 17896 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-12-13 16:03:49,741 basehttp 4596 2664 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-12-13 16:03:49,741 basehttp 4596 23540 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-12-13 16:03:52,791 basehttp 4596 23540 "POST /admin/login/?next=/admin/auth/group/ HTTP/1.1" 302 0
+INFO 2023-12-13 16:03:52,825 basehttp 4596 23540 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:03:52,868 basehttp 4596 23540 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-12-13 16:03:52,868 basehttp 4596 26616 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-12-13 16:03:52,869 basehttp 4596 18980 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-12-13 16:03:52,873 basehttp 4596 11148 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-12-13 16:03:52,880 basehttp 4596 23540 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-12-13 16:03:52,881 basehttp 4596 2664 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:03:52,889 basehttp 4596 26616 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-12-13 16:03:52,890 basehttp 4596 18980 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-12-13 16:03:52,897 basehttp 4596 11148 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-12-13 16:03:52,900 basehttp 4596 17896 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-12-13 16:03:52,912 basehttp 4596 17896 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-12-13 16:03:52,913 basehttp 4596 11148 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-12-13 16:03:52,963 basehttp 4596 17896 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-12-13 16:03:52,963 basehttp 4596 11148 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-12-13 16:03:55,842 basehttp 4596 17896 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:03:55,887 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:04:31,974 basehttp 4596 17896 "GET /admin/auth/group/?q=%E7%99%BD%E6%B4%81 HTTP/1.1" 200 7044
+INFO 2023-12-13 16:04:32,013 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:05:23,182 basehttp 4596 17896 "GET /admin/auth/group/?q=%E7%99%BD%E6%B4%81 HTTP/1.1" 200 7044
+INFO 2023-12-13 16:05:23,225 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:05:29,867 basehttp 4596 17896 "GET /admin/auth/group/?q=%E7%99%BD%E6%B4%81 HTTP/1.1" 200 7044
+INFO 2023-12-13 16:05:29,904 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-12-13 16:05:32,304 log 4596 15344 Not Found: /favicon.ico
+WARNING 2023-12-13 16:05:32,305 basehttp 4596 15344 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 16:05:32,544 basehttp 4596 17896 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:05:32,596 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:05:34,103 basehttp 4596 17896 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:05:34,143 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:05:34,237 basehttp 4596 17896 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:05:34,273 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-12-13 16:05:34,409 basehttp 4596 17896 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:05:34,447 basehttp 4596 17896 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-12-13 16:06:14,996 log 4596 1964 Not Found: /favicon.ico
+WARNING 2023-12-13 16:06:14,998 basehttp 4596 1964 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 16:06:15,682 basehttp 4596 1812 "GET /admin/auth/group/ HTTP/1.1" 200 6977
+INFO 2023-12-13 16:06:15,845 basehttp 4596 1812 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-12-13 16:06:16,168 log 4596 1812 Not Found: /favicon.ico
+WARNING 2023-12-13 16:06:16,170 basehttp 4596 1812 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 16:06:25,458 basehttp 4596 1812 "GET / HTTP/1.1" 200 1447
+INFO 2023-12-13 16:06:25,491 basehttp 4596 1812 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-13 16:06:25,492 basehttp 4596 17820 "GET /static/image/%E5%A4%B4%E5%83%8F%E5%A5%B3%E5%AD%A9.png HTTP/1.1" 200 1545
+INFO 2023-12-13 16:06:25,500 basehttp 4596 20696 "GET /static/scripts/printer.js HTTP/1.1" 200 1264
+INFO 2023-12-13 16:06:25,501 basehttp 4596 7996 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-13 16:06:25,501 basehttp 4596 16292 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-13 16:06:25,501 basehttp 4596 23456 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-13 16:06:25,509 basehttp 4596 1812 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-13 16:06:25,517 basehttp 4596 17820 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-13 16:06:25,531 basehttp 4596 23456 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-13 16:06:25,552 basehttp 4596 23456 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-13 16:06:25,599 basehttp 4596 17820 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-13 16:06:25,682 basehttp 4596 23456 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-13 16:06:28,396 basehttp 4596 23456 "GET /timeline/ HTTP/1.1" 200 4620
+INFO 2023-12-13 16:06:29,212 basehttp 4596 23456 "GET / HTTP/1.1" 200 1447
+WARNING 2023-12-13 16:06:36,390 log 4596 1964 Not Found: /favicon.ico
+WARNING 2023-12-13 16:06:36,391 basehttp 4596 1964 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:06:36,977 log 4596 1964 Not Found: /favicon.ico
+WARNING 2023-12-13 16:06:36,979 basehttp 4596 1964 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:06:37,582 log 4596 1964 Not Found: /favicon.ico
+WARNING 2023-12-13 16:06:37,587 basehttp 4596 1964 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:06:38,177 log 4596 1964 Not Found: /favicon.ico
+WARNING 2023-12-13 16:06:38,179 basehttp 4596 1964 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 16:06:38,292 basehttp 4596 23456 "GET /admin HTTP/1.1" 301 0
+INFO 2023-12-13 16:06:38,332 basehttp 4596 17820 "GET /admin/ HTTP/1.1" 200 5156
+INFO 2023-12-13 16:06:38,368 basehttp 4596 17820 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-12-13 16:06:38,390 basehttp 4596 17820 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-12-13 16:12:35,863 autoreload 4596 12276 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:12:37,749 autoreload 22680 17660 Watching for file changes with StatReloader
+INFO 2023-12-13 16:16:23,492 autoreload 22680 17660 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:16:24,678 autoreload 17016 22476 Watching for file changes with StatReloader
+INFO 2023-12-13 16:16:59,801 basehttp 17016 25024 "GET / HTTP/1.1" 200 1447
+WARNING 2023-12-13 16:17:02,764 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:17:02,769 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:17:03,343 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:17:03,345 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:17:03,941 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:17:03,942 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-13 16:17:04,198 basehttp 17016 25024 "GET /login/ HTTP/1.1" 200 672
+INFO 2023-12-13 16:17:04,504 basehttp 17016 25024 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-13 16:17:04,529 basehttp 17016 25024 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+WARNING 2023-12-13 16:17:12,065 log 17016 25024 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-13 16:17:12,067 basehttp 17016 25024 "POST /login/ HTTP/1.1" 403 2506
+ERROR 2023-12-13 16:17:54,669 log 17016 25024 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\backends\jinja2.py", line 42, in get_template
+    return Template(self.env.get_template(template_name), self)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\紫光云项目\lovezone\lovezone\templates\login.html", line 12, in template
+    {% csrf_token %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'csrf_token'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 8, in get
+    return render(request, 'login.html')
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\backends\jinja2.py", line 48, in get_template
+    raise new from exc
+django.template.exceptions.TemplateSyntaxError: ("Encountered unknown tag 'csrf_token'.",)
+ERROR 2023-12-13 16:17:54,684 basehttp 17016 25024 "GET /login/ HTTP/1.1" 500 132570
+INFO 2023-12-13 16:17:57,926 basehttp 17016 25024 "GET / HTTP/1.1" 200 1447
+WARNING 2023-12-13 16:18:02,225 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:18:02,227 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:18:02,839 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:18:02,840 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:18:03,458 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:18:03,459 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-13 16:18:04,057 log 17016 6608 Not Found: /favicon.ico
+WARNING 2023-12-13 16:18:04,059 basehttp 17016 6608 "GET /favicon.ico HTTP/1.1" 404 2685
+ERROR 2023-12-13 16:18:04,403 log 17016 25024 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\backends\jinja2.py", line 42, in get_template
+    return Template(self.env.get_template(template_name), self)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\紫光云项目\lovezone\lovezone\templates\login.html", line 12, in template
+    {% csrf_token %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'csrf_token'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 8, in get
+    return render(request, 'login.html')
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\backends\jinja2.py", line 48, in get_template
+    raise new from exc
+django.template.exceptions.TemplateSyntaxError: ("Encountered unknown tag 'csrf_token'.",)
+ERROR 2023-12-13 16:18:04,440 basehttp 17016 25024 "GET /login/ HTTP/1.1" 500 132433
+INFO 2023-12-13 16:20:34,959 basehttp 17016 25024 "GET /login/ HTTP/1.1" 200 806
+INFO 2023-12-13 16:20:35,828 basehttp 17016 25024 "GET /login/ HTTP/1.1" 200 806
+INFO 2023-12-13 16:20:36,014 basehttp 17016 25024 "GET /login/ HTTP/1.1" 200 806
+WARNING 2023-12-13 16:20:39,071 log 17016 25024 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-13 16:20:39,073 basehttp 17016 25024 "POST /login/ HTTP/1.1" 403 2506
+WARNING 2023-12-13 16:22:29,971 log 17016 25024 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-13 16:22:29,972 basehttp 17016 25024 "POST /login/ HTTP/1.1" 403 2506
+WARNING 2023-12-13 16:22:32,675 log 17016 25024 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-13 16:22:32,678 basehttp 17016 25024 "POST /login/ HTTP/1.1" 403 2506
+INFO 2023-12-13 16:22:35,030 basehttp 17016 25024 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-13 16:22:35,597 basehttp 17016 25024 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-13 16:22:38,685 log 17016 25024 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view login.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-13 16:22:38,688 basehttp 17016 25024 "POST /login/ HTTP/1.1" 500 68499
+INFO 2023-12-13 16:22:57,984 autoreload 17016 22476 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:22:59,235 autoreload 17972 1300 Watching for file changes with StatReloader
+INFO 2023-12-13 16:24:39,943 autoreload 17972 1300 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:24:41,114 autoreload 19900 14808 Watching for file changes with StatReloader
+INFO 2023-12-13 16:28:46,623 autoreload 19900 14808 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:28:47,723 autoreload 23856 20912 Watching for file changes with StatReloader
+INFO 2023-12-13 16:28:57,021 basehttp 23856 24464 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-13 16:29:00,222 log 23856 24464 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 17, in post
+    render(request, '/')
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /
+ERROR 2023-12-13 16:29:00,232 basehttp 23856 24464 "POST /login/ HTTP/1.1" 500 89456
+INFO 2023-12-13 16:29:33,199 autoreload 23856 20912 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:29:34,482 autoreload 16156 21400 Watching for file changes with StatReloader
+WARNING 2023-12-13 16:29:38,884 log 16156 25636 Forbidden (Permission denied): /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 15, in post
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-12-13 16:29:38,888 basehttp 16156 25636 "POST /login/ HTTP/1.1" 403 135
+ERROR 2023-12-13 16:29:48,697 log 16156 25636 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 17, in post
+    render(request, '/')
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /
+ERROR 2023-12-13 16:29:48,700 basehttp 16156 25636 "POST /login/ HTTP/1.1" 500 89481
+INFO 2023-12-13 16:33:39,718 autoreload 16156 21400 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:33:40,837 autoreload 12164 23008 Watching for file changes with StatReloader
+ERROR 2023-12-13 16:33:43,756 log 12164 24512 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view login.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-13 16:33:43,759 basehttp 12164 24512 "POST /login/ HTTP/1.1" 500 68504
+INFO 2023-12-13 16:34:01,568 basehttp 12164 24512 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-13 16:34:08,206 log 12164 24512 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view login.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-13 16:34:08,237 basehttp 12164 24512 "POST /login/ HTTP/1.1" 500 68504
+INFO 2023-12-13 16:35:19,118 autoreload 12164 23008 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 16:35:20,249 autoreload 14632 2284 Watching for file changes with StatReloader
+INFO 2023-12-13 16:35:24,038 basehttp 14632 19640 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-13 16:35:36,813 basehttp 14632 19640 "POST /login/ HTTP/1.1" 200 1447
+INFO 2023-12-13 17:53:06,687 autoreload 14632 2284 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 17:53:10,251 autoreload 8164 8520 Watching for file changes with StatReloader
+INFO 2023-12-13 17:53:17,213 autoreload 8164 8520 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 17:53:19,236 autoreload 14788 20956 Watching for file changes with StatReloader
+INFO 2023-12-13 17:53:25,732 autoreload 14788 20956 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 17:53:27,878 autoreload 13364 20284 Watching for file changes with StatReloader
+INFO 2023-12-13 17:53:38,869 autoreload 13364 20284 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 17:53:40,849 autoreload 23396 9980 Watching for file changes with StatReloader
+INFO 2023-12-13 17:53:44,719 basehttp 23396 13456 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-13 17:53:57,060 basehttp 23396 13456 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-12-13 17:53:57,122 basehttp 23396 13456 "GET / HTTP/1.1" 200 1447
+INFO 2023-12-13 20:26:21,293 autoreload 23396 9980 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 20:26:23,736 autoreload 22304 2496 Watching for file changes with StatReloader
+INFO 2023-12-13 20:31:36,102 autoreload 22304 2496 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 20:31:37,654 autoreload 21552 6160 Watching for file changes with StatReloader
+INFO 2023-12-13 20:34:43,669 autoreload 21552 6160 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 20:34:45,499 autoreload 24892 23388 Watching for file changes with StatReloader
+INFO 2023-12-13 20:34:52,397 autoreload 24892 23388 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 20:34:54,210 autoreload 10752 21496 Watching for file changes with StatReloader
+INFO 2023-12-13 20:38:28,459 autoreload 10752 21496 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 20:38:30,793 autoreload 17980 18384 Watching for file changes with StatReloader
+INFO 2023-12-13 21:00:39,980 autoreload 17980 18384 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-13 21:00:41,737 autoreload 7020 10228 Watching for file changes with StatReloader
+INFO 2023-12-14 11:01:44,594 autoreload 11668 5116 Watching for file changes with StatReloader
+INFO 2023-12-14 11:02:51,162 autoreload 11668 5116 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 11:02:52,244 autoreload 536 3124 Watching for file changes with StatReloader
+INFO 2023-12-14 11:02:55,506 basehttp 536 3256 "GET / HTTP/1.1" 200 1447
+WARNING 2023-12-14 11:02:55,921 log 536 3256 Not Found: /favicon.ico
+WARNING 2023-12-14 11:02:55,923 basehttp 536 3256 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-14 11:04:39,535 basehttp 536 3256 "GET / HTTP/1.1" 200 1453
+INFO 2023-12-14 11:04:41,302 basehttp 536 3256 "GET / HTTP/1.1" 200 1453
+INFO 2023-12-14 11:04:42,494 basehttp 536 3256 "GET / HTTP/1.1" 200 1453
+INFO 2023-12-14 11:04:53,575 basehttp 536 3256 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 11:04:54,533 basehttp 536 3256 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 11:05:04,069 basehttp 536 3256 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 11:05:05,663 basehttp 536 3256 "GET /music/ HTTP/1.1" 200 2913
+INFO 2023-12-14 11:05:05,707 basehttp 536 3256 "GET /static/scripts/musicPlyr.js HTTP/1.1" 304 0
+INFO 2023-12-14 11:05:05,747 basehttp 536 3256 "GET /music/songList HTTP/1.1" 200 862
+INFO 2023-12-14 11:05:05,897 basehttp 536 3256 "GET /static/scripts/list.js HTTP/1.1" 304 0
+INFO 2023-12-14 11:05:07,678 basehttp 536 3256 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 11:05:08,663 basehttp 536 3256 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 11:05:10,878 basehttp 536 3256 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 11:05:11,989 basehttp 536 3256 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 11:05:12,944 basehttp 536 3256 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 11:05:20,572 basehttp 536 3256 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:30:11,575 basehttp 536 8328 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:30:13,225 basehttp 536 8328 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:30:14,042 basehttp 536 8328 "GET / HTTP/1.1" 200 1451
+WARNING 2023-12-14 16:30:28,365 log 536 9600 Not Found: /favicon.ico
+WARNING 2023-12-14 16:30:28,366 basehttp 536 9600 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-14 16:30:28,963 log 536 9600 Not Found: /favicon.ico
+WARNING 2023-12-14 16:30:28,964 basehttp 536 9600 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-14 16:30:29,560 log 536 9600 Not Found: /favicon.ico
+WARNING 2023-12-14 16:30:29,561 basehttp 536 9600 "GET /favicon.ico HTTP/1.1" 404 2685
+WARNING 2023-12-14 16:30:30,160 log 536 9600 Not Found: /favicon.ico
+WARNING 2023-12-14 16:30:30,161 basehttp 536 9600 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-14 16:30:42,690 basehttp 536 8988 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:30:43,352 basehttp 536 18892 "GET /static/image/%E5%A4%B4%E5%83%8F%E5%A5%B3%E5%AD%A9.png HTTP/1.1" 200 1545
+INFO 2023-12-14 16:30:43,358 basehttp 536 18892 "GET /static/scripts/printer.js HTTP/1.1" 200 1264
+INFO 2023-12-14 16:30:43,366 basehttp 536 18892 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 16:30:43,382 basehttp 536 18892 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 16:30:43,454 basehttp 536 17984 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 16:30:43,546 basehttp 536 7200 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 16:30:43,613 basehttp 536 8988 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 16:30:43,639 basehttp 536 8988 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 16:30:43,690 basehttp 536 8988 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 16:30:43,756 basehttp 536 17624 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 16:30:43,818 basehttp 536 7200 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 16:30:43,823 basehttp 536 8564 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+WARNING 2023-12-14 16:30:43,910 log 536 8564 Not Found: /favicon.ico
+WARNING 2023-12-14 16:30:43,911 basehttp 536 8564 "GET /favicon.ico HTTP/1.1" 404 2685
+INFO 2023-12-14 16:31:36,438 basehttp 536 8564 "GET /login HTTP/1.1" 301 0
+INFO 2023-12-14 16:31:36,456 basehttp 536 7200 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 16:31:36,527 basehttp 536 7200 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-14 16:31:36,599 basehttp 536 7200 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+INFO 2023-12-14 16:31:45,266 basehttp 536 7200 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-12-14 16:31:45,285 basehttp 536 7200 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:32:33,522 basehttp 536 7200 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:32:34,539 basehttp 536 7200 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:32:36,536 basehttp 536 7200 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:32:37,112 basehttp 536 7200 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:32:37,365 basehttp 536 7200 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:32:49,428 basehttp 536 7200 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:47:46,100 autoreload 536 3124 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 16:47:49,582 autoreload 14500 18892 Watching for file changes with StatReloader
+INFO 2023-12-14 16:47:52,883 basehttp 14500 13616 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:47:59,159 basehttp 14500 13616 "GET /login HTTP/1.1" 301 0
+INFO 2023-12-14 16:47:59,176 basehttp 14500 20116 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 16:47:59,757 basehttp 14500 20116 "GET /static/css/login.css HTTP/1.1" 200 1306
+INFO 2023-12-14 16:47:59,807 basehttp 14500 20116 "GET /static/image/starnight.gif HTTP/1.1" 200 728334
+INFO 2023-12-14 16:48:09,371 basehttp 14500 20116 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-12-14 16:48:09,397 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:24,401 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:27,680 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:27,856 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:28,045 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:28,226 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:28,422 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:28,606 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:28,816 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:29,010 basehttp 14500 20116 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:30,336 basehttp 14500 20116 "GET /timeline HTTP/1.1" 301 0
+INFO 2023-12-14 16:48:30,370 basehttp 14500 14240 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 16:48:30,479 basehttp 14500 14240 "GET /static/css/timeline.css HTTP/1.1" 200 2931
+INFO 2023-12-14 16:48:30,482 basehttp 14500 15732 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 16:48:30,549 basehttp 14500 9040 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 16:48:30,550 basehttp 14500 18976 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 16:48:30,566 basehttp 14500 18464 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 16:48:30,570 basehttp 14500 14240 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 16:48:30,579 basehttp 14500 18912 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 16:48:30,607 basehttp 14500 15732 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 16:48:31,650 basehttp 14500 18464 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 16:48:31,949 basehttp 14500 18464 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:33,135 basehttp 14500 18464 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 16:48:33,952 basehttp 14500 18464 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:48:46,986 basehttp 14500 18464 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 16:49:11,820 basehttp 14500 18464 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 16:49:12,859 basehttp 14500 18464 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 17:02:25,591 autoreload 14500 18892 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 17:02:26,814 autoreload 15196 8704 Watching for file changes with StatReloader
+INFO 2023-12-14 17:04:18,151 autoreload 15196 8704 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 17:04:19,330 autoreload 3652 7300 Watching for file changes with StatReloader
+INFO 2023-12-14 17:06:36,789 autoreload 3652 7300 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 17:06:38,044 autoreload 7800 18280 Watching for file changes with StatReloader
+INFO 2023-12-14 17:12:56,575 autoreload 7800 18280 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 17:12:57,768 autoreload 19608 14108 Watching for file changes with StatReloader
+ERROR 2023-12-14 17:13:02,408 log 19608 3648 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:13:02,413 basehttp 19608 3648 "GET / HTTP/1.1" 500 77557
+INFO 2023-12-14 17:13:38,518 basehttp 19608 3648 "GET /timeline/ HTTP/1.1" 200 4707
+INFO 2023-12-14 17:13:39,031 basehttp 19608 3648 "GET /static/css/timeline.css HTTP/1.1" 200 2931
+INFO 2023-12-14 17:13:39,037 basehttp 19608 3648 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 17:13:39,163 basehttp 19608 3376 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 17:13:39,230 basehttp 19608 3648 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 17:13:39,238 basehttp 19608 13804 "GET /static/image/%E5%A4%B4%E5%83%8F%E5%A5%B3%E5%AD%A9.png HTTP/1.1" 200 1545
+INFO 2023-12-14 17:13:39,263 basehttp 19608 3648 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 17:13:39,305 basehttp 19608 13804 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 17:13:39,391 basehttp 19608 20124 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 17:13:39,397 basehttp 19608 14532 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 17:13:39,423 basehttp 19608 3648 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 17:13:39,423 basehttp 19608 14532 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 17:13:39,474 basehttp 19608 20124 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 17:13:39,479 basehttp 19608 13804 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 17:13:39,481 basehttp 19608 14532 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 17:13:39,488 basehttp 19608 3648 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 17:13:39,495 basehttp 19608 8868 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 17:13:39,507 basehttp 19608 20124 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 17:13:39,571 basehttp 19608 20124 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 17:13:40,078 basehttp 19608 3376 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 17:13:41,407 basehttp 19608 3376 "GET /timeline/ HTTP/1.1" 200 4707
+ERROR 2023-12-14 17:13:53,383 log 19608 3376 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:13:53,386 basehttp 19608 3376 "GET / HTTP/1.1" 500 77420
+INFO 2023-12-14 17:23:35,949 autoreload 19608 14108 D:\紫光云项目\lovezone\lovezone\configs\settings.py changed, reloading.
+INFO 2023-12-14 17:23:48,027 autoreload 2956 18844 Watching for file changes with StatReloader
+ERROR 2023-12-14 17:23:52,300 log 2956 11560 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:23:52,304 basehttp 2956 11560 "GET / HTTP/1.1" 500 77557
+INFO 2023-12-14 17:24:01,659 basehttp 2956 11560 "GET /timeline/ HTTP/1.1" 200 4707
+INFO 2023-12-14 17:24:02,315 basehttp 2956 11560 "GET /timeline/ HTTP/1.1" 200 4707
+ERROR 2023-12-14 17:24:06,341 log 2956 11560 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:24:06,343 basehttp 2956 11560 "GET / HTTP/1.1" 500 77420
+INFO 2023-12-14 17:24:14,744 basehttp 2956 11560 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:24:18,560 basehttp 2956 11560 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-12-14 17:24:18,641 log 2956 11560 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:24:18,644 basehttp 2956 11560 "GET / HTTP/1.1" 500 77699
+INFO 2023-12-14 17:25:15,832 autoreload 2956 18844 D:\紫光云项目\lovezone\lovezone\configs\settings.py changed, reloading.
+INFO 2023-12-14 17:25:17,075 autoreload 17868 684 Watching for file changes with StatReloader
+WARNING 2023-12-14 17:25:22,305 log 17868 2692 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-14 17:25:22,306 basehttp 17868 2692 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2023-12-14 17:25:28,648 log 17868 2692 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-14 17:25:28,649 basehttp 17868 2692 "POST /login/ HTTP/1.1" 403 2518
+INFO 2023-12-14 17:28:15,456 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 819
+WARNING 2023-12-14 17:28:19,510 log 17868 2692 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-14 17:28:19,512 basehttp 17868 2692 "POST /login/ HTTP/1.1" 403 2506
+WARNING 2023-12-14 17:28:36,696 log 17868 2692 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-14 17:28:36,697 basehttp 17868 2692 "POST /login/ HTTP/1.1" 403 2506
+WARNING 2023-12-14 17:28:41,702 log 17868 2692 Forbidden (CSRF token missing.): /login/
+WARNING 2023-12-14 17:28:41,703 basehttp 17868 2692 "POST /login/ HTTP/1.1" 403 2506
+INFO 2023-12-14 17:28:43,852 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:44,352 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:44,550 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:44,748 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:44,910 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:45,085 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:45,264 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:28:45,454 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-14 17:28:55,981 log 17868 2692 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:28:55,986 basehttp 17868 2692 "POST /login/ HTTP/1.1" 500 100383
+ERROR 2023-12-14 17:29:47,635 log 17868 2692 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:29:47,638 basehttp 17868 2692 "POST /login/ HTTP/1.1" 500 100383
+INFO 2023-12-14 17:29:50,848 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:51,037 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:51,229 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:51,421 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:51,605 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:51,791 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:51,963 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:29:52,150 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-14 17:29:58,188 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:29:58,191 basehttp 17868 2692 "GET / HTTP/1.1" 500 77258
+ERROR 2023-12-14 17:30:02,670 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:02,672 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:03,509 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:03,511 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:03,750 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:03,753 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:03,994 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:03,996 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:04,389 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:04,392 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:04,686 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:04,688 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:05,042 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:05,045 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+INFO 2023-12-14 17:30:07,057 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:30:07,808 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:30:08,006 basehttp 17868 2692 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-14 17:30:10,007 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:10,009 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:10,727 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:10,730 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:13,136 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:13,139 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+ERROR 2023-12-14 17:30:13,469 log 17868 2692 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:30:13,471 basehttp 17868 2692 "GET / HTTP/1.1" 500 77395
+INFO 2023-12-14 17:30:57,567 autoreload 17868 684 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 17:30:58,955 autoreload 19608 11920 Watching for file changes with StatReloader
+INFO 2023-12-14 17:31:02,519 basehttp 19608 17676 "GET / HTTP/1.1" 200 1534
+INFO 2023-12-14 17:31:02,946 basehttp 19608 17676 "GET /static/scripts/printer.js HTTP/1.1" 200 1264
+INFO 2023-12-14 17:31:04,570 basehttp 19608 17676 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-14 17:31:07,652 log 19608 17676 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:31:07,657 basehttp 19608 17676 "POST /login/ HTTP/1.1" 500 100383
+ERROR 2023-12-14 17:31:15,275 log 19608 17676 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:31:15,278 basehttp 19608 17676 "POST /login/ HTTP/1.1" 500 100383
+INFO 2023-12-14 17:31:17,455 basehttp 19608 17676 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:31:17,642 basehttp 19608 17676 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:31:17,826 basehttp 19608 17676 "GET /login/ HTTP/1.1" 200 810
+ERROR 2023-12-14 17:31:20,837 log 19608 17676 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:31:20,841 basehttp 19608 17676 "POST /login/ HTTP/1.1" 500 100383
+ERROR 2023-12-14 17:31:28,403 log 19608 17676 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:31:28,407 basehttp 19608 17676 "POST /login/ HTTP/1.1" 500 100383
+ERROR 2023-12-14 17:32:46,620 log 19608 17676 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 25, in import_string
+    module_path, class_name = dotted_path.rsplit(".", 1)
+ValueError: not enough values to unpack (expected 2, got 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\lovezone\apps\login\views.py", line 13, in post
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\utils\module_loading.py", line 27, in import_string
+    raise ImportError("%s doesn't look like a module path" % dotted_path) from err
+ImportError: d doesn't look like a module path
+ERROR 2023-12-14 17:32:46,624 basehttp 19608 17676 "POST /login/ HTTP/1.1" 500 100383
+INFO 2023-12-14 17:33:19,233 autoreload 19608 11920 D:\紫光云项目\lovezone\lovezone\configs\settings.py changed, reloading.
+INFO 2023-12-14 17:33:20,458 autoreload 14468 19544 Watching for file changes with StatReloader
+INFO 2023-12-14 17:33:24,657 basehttp 14468 18660 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:33:27,510 basehttp 14468 18660 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-12-14 17:33:27,535 basehttp 14468 18660 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 17:33:30,824 basehttp 14468 18660 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 17:33:31,305 basehttp 14468 18660 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 17:33:32,764 basehttp 14468 18660 "GET /music HTTP/1.1" 301 0
+INFO 2023-12-14 17:33:32,788 basehttp 14468 8928 "GET /music/ HTTP/1.1" 200 2913
+INFO 2023-12-14 17:33:33,191 basehttp 14468 8928 "GET /static/scripts/plyr.js HTTP/1.1" 200 214326
+INFO 2023-12-14 17:33:33,223 basehttp 14468 8928 "GET /static/css/plyr.css HTTP/1.1" 200 42787
+INFO 2023-12-14 17:33:33,226 basehttp 14468 5948 "GET /static/css/list.css HTTP/1.1" 200 1462
+INFO 2023-12-14 17:33:33,227 basehttp 14468 15212 "GET /static/css/musicPlyr.css HTTP/1.1" 200 4253
+INFO 2023-12-14 17:33:33,228 basehttp 14468 15788 "GET /music/songList HTTP/1.1" 200 862
+INFO 2023-12-14 17:33:33,229 basehttp 14468 8128 "GET /static/scripts/musicPlyr.js HTTP/1.1" 200 17179
+INFO 2023-12-14 17:33:33,230 basehttp 14468 8916 "GET /static/image/%E9%9F%B3%E4%B9%90.png HTTP/1.1" 200 4882
+INFO 2023-12-14 17:33:33,325 basehttp 14468 8916 "GET /static/scripts/list.js HTTP/1.1" 200 7941
+INFO 2023-12-14 17:33:33,552 basehttp 14468 8916 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 17:33:33,926 basehttp 14468 8916 "GET /timeline/ HTTP/1.1" 200 4624
+INFO 2023-12-14 17:33:34,686 basehttp 14468 8916 "GET / HTTP/1.1" 200 1451
+INFO 2023-12-14 17:33:38,469 basehttp 14468 8916 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:33:38,647 basehttp 14468 8916 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:33:38,821 basehttp 14468 8916 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:33:54,741 autoreload 14468 19544 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 17:33:56,035 autoreload 19556 9128 Watching for file changes with StatReloader
+INFO 2023-12-14 17:33:58,845 basehttp 19556 2772 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:34:01,883 basehttp 19556 2772 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-12-14 17:34:01,951 log 19556 2772 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:34:01,954 basehttp 19556 2772 "GET / HTTP/1.1" 500 77699
+INFO 2023-12-14 17:35:19,004 autoreload 19556 9128 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:35:20,272 autoreload 20156 18768 Watching for file changes with StatReloader
+INFO 2023-12-14 17:35:23,239 basehttp 20156 20208 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:35:26,623 basehttp 20156 20208 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-12-14 17:35:26,694 log 20156 20208 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:35:26,697 basehttp 20156 20208 "GET / HTTP/1.1" 500 77699
+INFO 2023-12-14 17:35:56,544 autoreload 20156 18768 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:35:57,798 autoreload 19068 1432 Watching for file changes with StatReloader
+INFO 2023-12-14 17:36:11,900 basehttp 19068 15324 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:36:18,631 basehttp 19068 15324 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-12-14 17:36:18,703 log 19068 15324 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:36:18,707 basehttp 19068 15324 "GET / HTTP/1.1" 500 77699
+INFO 2023-12-14 17:46:23,066 autoreload 19068 1432 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:46:24,404 autoreload 17668 6056 Watching for file changes with StatReloader
+INFO 2023-12-14 17:46:28,714 basehttp 17668 17980 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:46:30,158 basehttp 17668 17980 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:46:32,799 basehttp 17668 17980 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-12-14 17:46:32,866 log 17668 17980 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:46:32,869 basehttp 17668 17980 "GET / HTTP/1.1" 500 77699
+WARNING 2023-12-14 17:53:42,657 log 17668 1904 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-12-14 17:53:42,659 basehttp 17668 1904 "POST /login/ HTTP/1.1" 403 2518
+INFO 2023-12-14 17:53:45,143 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:45,992 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:46,193 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:46,369 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:46,551 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:46,737 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:46,902 basehttp 17668 1904 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 17:53:49,535 basehttp 17668 1904 "POST /login/ HTTP/1.1" 302 0
+ERROR 2023-12-14 17:53:49,587 log 17668 1904 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\紫光云项目\lovezone\venv\lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+AttributeError: 'IndexView' object has no attribute 'user'
+ERROR 2023-12-14 17:53:49,590 basehttp 17668 1904 "GET / HTTP/1.1" 500 77699
+INFO 2023-12-14 17:58:17,601 autoreload 17668 6056 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:58:18,962 autoreload 13516 19412 Watching for file changes with StatReloader
+INFO 2023-12-14 17:59:04,275 autoreload 13516 19412 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:59:05,625 autoreload 3904 18028 Watching for file changes with StatReloader
+INFO 2023-12-14 17:59:16,188 autoreload 3904 18028 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:59:17,479 autoreload 14108 2320 Watching for file changes with StatReloader
+INFO 2023-12-14 17:59:56,129 autoreload 14108 2320 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 17:59:57,521 autoreload 19152 17472 Watching for file changes with StatReloader
+INFO 2023-12-14 18:00:08,509 autoreload 19152 17472 D:\紫光云项目\lovezone\lovezone\apps\index\views.py changed, reloading.
+INFO 2023-12-14 18:00:09,747 autoreload 19196 20224 Watching for file changes with StatReloader
+INFO 2023-12-14 18:00:22,857 basehttp 19196 14824 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:00:23,026 basehttp 19196 14824 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:00:23,250 basehttp 19196 14824 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:00:26,327 basehttp 19196 14824 "POST /login/ HTTP/1.1" 302 0
+INFO 2023-12-14 18:00:26,353 basehttp 19196 14824 "GET / HTTP/1.1" 200 1448
+INFO 2023-12-14 18:00:30,056 basehttp 19196 14824 "GET /timeline/ HTTP/1.1" 200 4621
+INFO 2023-12-14 18:00:30,709 basehttp 19196 19548 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 18:00:30,795 basehttp 19196 14824 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 18:00:30,823 basehttp 19196 16364 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 18:00:30,915 basehttp 19196 16308 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 18:00:30,973 basehttp 19196 5444 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 18:00:31,473 basehttp 19196 5444 "GET / HTTP/1.1" 200 1448
+INFO 2023-12-14 18:03:01,941 basehttp 19196 5444 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:03:01,949 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:02,819 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:03,450 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:03,666 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:07,796 basehttp 19196 5444 "GET /timeline/ HTTP/1.1" 200 4621
+INFO 2023-12-14 18:03:08,207 basehttp 19196 5444 "GET /timeline/ HTTP/1.1" 200 4621
+INFO 2023-12-14 18:03:11,307 basehttp 19196 5444 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:03:11,319 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:17,475 basehttp 19196 5444 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:03:17,484 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:18,551 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:21,077 basehttp 19196 5444 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:21,612 basehttp 19196 5444 "GET /login/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:23,409 basehttp 19196 5444 "GET /timeline/ HTTP/1.1" 200 4621
+INFO 2023-12-14 18:03:25,216 basehttp 19196 5444 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:03:25,224 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:28,563 basehttp 19196 5444 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:03:28,572 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:03:36,503 basehttp 19196 5444 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:03:36,521 basehttp 19196 5444 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:08:52,187 basehttp 19196 17116 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:08:54,959 basehttp 19196 17116 "POST /login/?redirect_to=/ HTTP/1.1" 302 0
+INFO 2023-12-14 18:08:54,977 basehttp 19196 17116 "GET / HTTP/1.1" 200 1449
+INFO 2023-12-14 18:09:44,473 basehttp 19196 17116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:09:46,064 basehttp 19196 17116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:09:46,689 basehttp 19196 17116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:09:46,864 basehttp 19196 17116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:09:47,046 basehttp 19196 17116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:10:52,320 autoreload 19196 20224 D:\紫光云项目\lovezone\lovezone\apps\timeline\views.py changed, reloading.
+INFO 2023-12-14 18:10:53,594 autoreload 5432 1296 Watching for file changes with StatReloader
+INFO 2023-12-14 18:10:57,624 basehttp 5432 9432 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 18:10:57,641 basehttp 5432 9432 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:10:58,983 basehttp 5432 9432 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 18:11:02,018 basehttp 5432 9432 "POST /login/?redirect_to=/ HTTP/1.1" 302 0
+INFO 2023-12-14 18:11:02,043 basehttp 5432 9432 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:11:03,822 basehttp 5432 9432 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 18:11:05,064 basehttp 5432 9432 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:11:06,149 basehttp 5432 9432 "GET /music HTTP/1.1" 301 0
+INFO 2023-12-14 18:11:06,168 basehttp 5432 19668 "GET /music/ HTTP/1.1" 200 2905
+INFO 2023-12-14 18:11:06,549 basehttp 5432 19668 "GET /static/scripts/plyr.js HTTP/1.1" 200 214326
+INFO 2023-12-14 18:11:06,581 basehttp 5432 19668 "GET /static/css/plyr.css HTTP/1.1" 200 42787
+INFO 2023-12-14 18:11:06,585 basehttp 5432 15764 "GET /music/songList HTTP/1.1" 200 862
+INFO 2023-12-14 18:11:06,586 basehttp 5432 12316 "GET /static/css/list.css HTTP/1.1" 200 1462
+INFO 2023-12-14 18:11:06,586 basehttp 5432 19660 "GET /static/image/%E9%9F%B3%E4%B9%90.png HTTP/1.1" 200 4882
+INFO 2023-12-14 18:11:06,587 basehttp 5432 18208 "GET /static/scripts/musicPlyr.js HTTP/1.1" 200 17179
+INFO 2023-12-14 18:11:06,588 basehttp 5432 15328 "GET /static/css/musicPlyr.css HTTP/1.1" 200 4253
+INFO 2023-12-14 18:11:06,616 basehttp 5432 15328 "GET /static/scripts/list.js HTTP/1.1" 200 7941
+INFO 2023-12-14 18:11:08,131 basehttp 5432 15328 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 18:11:09,286 basehttp 5432 15328 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:11:11,518 basehttp 5432 15328 "GET /music/ HTTP/1.1" 200 2905
+INFO 2023-12-14 18:11:11,630 basehttp 5432 15328 "GET /music/songList HTTP/1.1" 200 862
+INFO 2023-12-14 18:11:13,887 basehttp 5432 15328 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 18:11:14,843 basehttp 5432 15328 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 18:11:17,277 basehttp 5432 15328 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 20:42:40,620 autoreload 5432 1296 D:\紫光云项目\lovezone\lovezone\apps\login\views.py changed, reloading.
+INFO 2023-12-14 20:42:41,963 autoreload 19640 2980 Watching for file changes with StatReloader
+INFO 2023-12-14 20:51:50,840 basehttp 19640 19116 "GET /timeline/ HTTP/1.1" 302 0
+WARNING 2023-12-14 20:51:50,871 log 19640 19116 Not Found: /accounts/login/
+WARNING 2023-12-14 20:51:50,872 basehttp 19640 19116 "GET /accounts/login/?next=/timeline/ HTTP/1.1" 404 2713
+INFO 2023-12-14 20:52:08,343 basehttp 19640 19116 "GET / HTTP/1.1" 302 0
+INFO 2023-12-14 20:52:08,357 basehttp 19640 19116 "GET /login/?redirect_to=/ HTTP/1.1" 200 810
+INFO 2023-12-14 20:52:12,712 basehttp 19640 19116 "POST /login/?redirect_to=/ HTTP/1.1" 302 0
+INFO 2023-12-14 20:52:12,741 basehttp 19640 19116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 20:52:14,275 basehttp 19640 19116 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 20:53:46,621 basehttp 19640 19116 "GET / HTTP/1.1" 200 1443
+INFO 2023-12-14 20:53:48,715 basehttp 19640 19116 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:03:00,674 basehttp 19640 8156 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:04:01,299 autoreload 19640 2980 D:\紫光云项目\lovezone\lovezone\apps\timeline\views.py changed, reloading.
+INFO 2023-12-14 21:04:02,641 autoreload 14632 16628 Watching for file changes with StatReloader
+INFO 2023-12-14 21:08:09,648 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:08:10,896 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:11:18,223 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:11:22,003 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:12:24,193 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:12:50,988 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:12:51,590 basehttp 14632 3140 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:12:51,594 basehttp 14632 3140 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:12:51,601 basehttp 14632 3140 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:12:51,638 basehttp 14632 3140 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:12:51,648 basehttp 14632 3140 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:12:51,689 basehttp 14632 3140 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:12:51,728 basehttp 14632 3140 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:12:51,765 basehttp 14632 17336 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:12:51,770 basehttp 14632 3140 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:12:51,797 basehttp 14632 17336 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:12:51,805 basehttp 14632 3140 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:12:51,821 basehttp 14632 14396 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:12:51,866 basehttp 14632 7796 "GET /static/css/timeline.css HTTP/1.1" 200 2488
+INFO 2023-12-14 21:12:51,896 basehttp 14632 14396 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:12:51,905 basehttp 14632 17336 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:12:51,984 basehttp 14632 15148 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:12:52,056 basehttp 14632 7796 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:12:52,118 basehttp 14632 19120 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:12:52,921 basehttp 14632 3140 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 21:13:38,713 basehttp 14632 3140 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:13:38,806 basehttp 14632 3140 "GET /static/css/timeline.css HTTP/1.1" 200 2461
+INFO 2023-12-14 21:13:38,827 basehttp 14632 19120 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:13:38,827 basehttp 14632 3140 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:13:38,828 basehttp 14632 17336 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:13:38,829 basehttp 14632 15148 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:13:38,830 basehttp 14632 7796 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:13:38,830 basehttp 14632 14396 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:13:38,876 basehttp 14632 3140 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:13:38,877 basehttp 14632 17336 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:13:38,927 basehttp 14632 7796 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:13:38,934 basehttp 14632 15148 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:13:38,959 basehttp 14632 17336 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:13:38,960 basehttp 14632 14396 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:13:38,997 basehttp 14632 15148 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:13:39,036 basehttp 14632 17336 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:13:39,046 basehttp 14632 14396 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:13:39,071 basehttp 14632 7796 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:13:39,154 basehttp 14632 19120 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:13:39,686 basehttp 14632 3140 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 21:15:22,669 basehttp 14632 3140 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:15:22,760 basehttp 14632 3140 "GET /static/css/timeline.css HTTP/1.1" 200 2385
+INFO 2023-12-14 21:15:22,779 basehttp 14632 17336 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:15:22,779 basehttp 14632 19120 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:15:22,780 basehttp 14632 14396 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:15:22,780 basehttp 14632 3140 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:15:22,781 basehttp 14632 15148 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:15:22,781 basehttp 14632 7796 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:15:22,798 basehttp 14632 7796 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:15:22,798 basehttp 14632 3140 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:15:22,868 basehttp 14632 17336 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:15:22,878 basehttp 14632 3140 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:15:22,946 basehttp 14632 15148 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:15:22,962 basehttp 14632 17336 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:15:22,975 basehttp 14632 14396 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:15:22,986 basehttp 14632 7796 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:15:23,003 basehttp 14632 15148 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:15:23,011 basehttp 14632 17336 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:15:23,072 basehttp 14632 19120 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:15:23,853 basehttp 14632 3140 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 21:16:32,152 basehttp 14632 3140 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:16:32,272 basehttp 14632 3140 "GET /static/css/timeline.css HTTP/1.1" 200 2385
+INFO 2023-12-14 21:16:32,281 basehttp 14632 19120 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:16:32,282 basehttp 14632 15148 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:16:32,293 basehttp 14632 7796 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:16:32,293 basehttp 14632 14396 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:16:32,296 basehttp 14632 3140 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:16:32,298 basehttp 14632 17336 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:16:32,302 basehttp 14632 19120 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:16:32,302 basehttp 14632 15148 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:16:32,395 basehttp 14632 15148 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:16:32,398 basehttp 14632 17336 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:16:32,429 basehttp 14632 14396 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:16:32,443 basehttp 14632 7796 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:16:32,486 basehttp 14632 14396 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:16:32,499 basehttp 14632 15148 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:16:32,516 basehttp 14632 17336 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:16:32,547 basehttp 14632 7796 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:16:32,559 basehttp 14632 19120 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:16:33,197 basehttp 14632 3140 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 21:18:51,574 basehttp 14632 3140 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:18:51,655 basehttp 14632 3140 "GET /static/css/timeline.css HTTP/1.1" 200 2385
+INFO 2023-12-14 21:18:51,671 basehttp 14632 14396 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:18:51,671 basehttp 14632 17336 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:18:51,672 basehttp 14632 15148 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:18:51,673 basehttp 14632 3140 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:18:51,673 basehttp 14632 19120 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:18:51,674 basehttp 14632 7796 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:18:51,708 basehttp 14632 17336 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:18:51,709 basehttp 14632 7796 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:18:51,729 basehttp 14632 3140 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:18:51,749 basehttp 14632 15148 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:18:51,759 basehttp 14632 19120 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:18:51,772 basehttp 14632 7796 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:18:51,846 basehttp 14632 15148 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:18:51,864 basehttp 14632 3140 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:18:51,870 basehttp 14632 19120 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:18:51,888 basehttp 14632 7796 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:18:51,982 basehttp 14632 14396 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:18:52,942 basehttp 14632 17336 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 21:18:54,654 basehttp 14632 17336 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:18:54,728 basehttp 14632 17336 "GET /static/css/timeline.css HTTP/1.1" 200 2385
+INFO 2023-12-14 21:18:54,734 basehttp 14632 14396 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:18:54,735 basehttp 14632 3140 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:18:54,739 basehttp 14632 17336 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:18:54,739 basehttp 14632 19120 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:18:54,740 basehttp 14632 15148 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:18:54,741 basehttp 14632 7796 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:18:54,753 basehttp 14632 3140 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:18:54,799 basehttp 14632 15148 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:18:54,816 basehttp 14632 19120 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:18:54,838 basehttp 14632 17336 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:18:54,874 basehttp 14632 15148 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:18:54,884 basehttp 14632 14396 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:18:54,896 basehttp 14632 19120 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:18:54,906 basehttp 14632 3140 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:18:54,946 basehttp 14632 14396 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:18:54,977 basehttp 14632 19120 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:18:54,978 basehttp 14632 15148 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:18:56,103 basehttp 14632 7796 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 21:21:42,892 basehttp 14632 7796 "GET /timeline/ HTTP/1.1" 200 4616
+INFO 2023-12-14 21:21:42,979 basehttp 14632 7796 "GET /static/css/timeline.css HTTP/1.1" 200 2385
+INFO 2023-12-14 21:21:42,984 basehttp 14632 15148 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 21:21:42,985 basehttp 14632 3140 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 21:21:42,996 basehttp 14632 17336 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 21:21:42,999 basehttp 14632 19120 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 21:21:43,000 basehttp 14632 14396 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 21:21:43,001 basehttp 14632 7796 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 21:21:43,004 basehttp 14632 15148 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 21:21:43,004 basehttp 14632 3140 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 21:21:43,043 basehttp 14632 19120 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 21:21:43,067 basehttp 14632 14396 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 21:21:43,089 basehttp 14632 3140 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 21:21:43,115 basehttp 14632 7796 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 21:21:43,135 basehttp 14632 15148 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 21:21:43,168 basehttp 14632 7796 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 21:21:43,179 basehttp 14632 14396 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 21:21:43,196 basehttp 14632 3140 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 21:21:43,260 basehttp 14632 17336 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 21:21:44,534 basehttp 14632 19120 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-14 22:05:24,555 basehttp 14632 20400 "GET /timeline/ HTTP/1.1" 200 4587
+INFO 2023-12-14 22:05:24,633 basehttp 14632 20400 "GET /static/css/timeline.css HTTP/1.1" 200 2460
+INFO 2023-12-14 22:05:24,639 basehttp 14632 17420 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-14 22:05:24,653 basehttp 14632 20400 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-14 22:05:24,655 basehttp 14632 17420 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-14 22:05:24,658 basehttp 14632 8664 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-14 22:05:24,662 basehttp 14632 5600 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-14 22:05:24,666 basehttp 14632 6756 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-14 22:05:24,667 basehttp 14632 3316 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-14 22:05:24,685 basehttp 14632 20400 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-14 22:05:24,738 basehttp 14632 20400 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-14 22:05:24,741 basehttp 14632 5600 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-14 22:05:24,742 basehttp 14632 3316 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-14 22:05:24,801 basehttp 14632 6756 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-14 22:05:24,836 basehttp 14632 6756 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-14 22:05:24,838 basehttp 14632 5600 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-14 22:05:24,853 basehttp 14632 3316 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-14 22:05:24,856 basehttp 14632 20400 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-14 22:05:24,966 basehttp 14632 8664 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-14 22:05:25,941 basehttp 14632 17420 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456
+INFO 2023-12-15 08:58:08,521 basehttp 14632 6140 "GET /timeline/ HTTP/1.1" 200 4587
+INFO 2023-12-15 08:58:08,605 basehttp 14632 6140 "GET /static/css/timeline.css HTTP/1.1" 200 2460
+INFO 2023-12-15 08:58:08,622 basehttp 14632 18176 "GET /static/css/my.css HTTP/1.1" 200 4772
+INFO 2023-12-15 08:58:08,631 basehttp 14632 6140 "GET /static/image/%E6%97%A5%E5%BF%97.png HTTP/1.1" 200 643
+INFO 2023-12-15 08:58:08,631 basehttp 14632 18176 "GET /static/scripts/sakura.js HTTP/1.1" 200 3489
+INFO 2023-12-15 08:58:08,631 basehttp 14632 9044 "GET /static/image/%E5%BD%B1%E5%83%8F%E6%8B%8D%E6%91%84%E7%94%B3%E8%AF%B7.png HTTP/1.1" 200 656
+INFO 2023-12-15 08:58:08,632 basehttp 14632 9516 "GET /static/image/%E6%92%AD%E6%94%BE%E5%99%A8.png HTTP/1.1" 200 484
+INFO 2023-12-15 08:58:08,634 basehttp 14632 7288 "GET /static/image/%E7%88%B1%E5%BF%83.png HTTP/1.1" 200 745
+INFO 2023-12-15 08:58:08,637 basehttp 14632 9872 "GET /static/scripts/timer.js HTTP/1.1" 200 1340
+INFO 2023-12-15 08:58:08,664 basehttp 14632 9872 "GET /static/scripts/daohang_show.js HTTP/1.1" 200 528
+INFO 2023-12-15 08:58:08,695 basehttp 14632 9516 "GET /static/image/%E7%BB%93%E5%A9%9A.png HTTP/1.1" 200 686254
+INFO 2023-12-15 08:58:08,718 basehttp 14632 9044 "GET /static/image/%E5%BC%82%E5%9C%B0.png HTTP/1.1" 200 656246
+INFO 2023-12-15 08:58:08,721 basehttp 14632 7288 "GET /static/image/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98.png HTTP/1.1" 200 667831
+INFO 2023-12-15 08:58:08,731 basehttp 14632 9872 "GET /static/image/1161108927.jpg HTTP/1.1" 200 293455
+INFO 2023-12-15 08:58:08,784 basehttp 14632 9044 "GET /static/image/%E5%A4%A7%E5%AD%A6.png HTTP/1.1" 200 655749
+INFO 2023-12-15 08:58:08,790 basehttp 14632 9516 "GET /static/image/sakura.png HTTP/1.1" 200 8668
+INFO 2023-12-15 08:58:08,802 basehttp 14632 7288 "GET /static/image/%E7%AC%AC%E4%B8%80%E5%A4%A9.png HTTP/1.1" 200 647416
+INFO 2023-12-15 08:58:08,814 basehttp 14632 9872 "GET /static/image/%E5%A9%B4%E5%84%BF.png HTTP/1.1" 200 530278
+INFO 2023-12-15 08:58:08,849 basehttp 14632 6140 "GET /static/font/AaPrincessPeach-2.ttf HTTP/1.1" 200 3525560
+INFO 2023-12-15 08:58:09,595 basehttp 14632 18176 "GET /static/font/ZhuZiAWan-2.ttc HTTP/1.1" 200 23264456

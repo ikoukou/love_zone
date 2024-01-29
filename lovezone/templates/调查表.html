@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 300px;
+            height: 800px;
+            margin: 0 auto;
+            background-color: gray;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div><h2 class="center">调查结果表单</h2>
+    <hr>
+    <form class="center">
+        注册名：<input type="text" placeholder="仅可使用大小写字母和数字">
+        <br><br>
+        注册密码：<input type="password" placeholder="使用大小写字母和数字的组合，不可使用特殊字符">
+        <br><br>
+        性别：<input type="radio" name="sex">男  <input type="radio" name="sex" checked>女
+        <br><br>
+        所在城市：<select>
+            <option>上海</option>
+            <option>北京</option>
+            <option selected>天津</option>
+        </select>
+        <br><br>
+        婚姻状况：<input type="radio" name="marry">已婚  <input type="radio" name="marry" checked>未婚 <input type="radio" name="marry">保密
+        <br><br>
+        经济状况：<input type="checkbox" name="money">有车 <input type="checkbox" name="money">有房 <input type="checkbox" type="money">无贷款
+        <br><br>
+        个人介绍：
+        <br>
+        <textarea title=“简单说明" cols="38" rows="20"></textarea>
+        <br><br>
+        <h4>我承诺</h4>
+        <ul>
+            <li>年满18岁，单身</li>
+            <li>拥有中国国籍，且热爱中国</li>
+            <li>若有虚假信息，将自己承担一切责任</li>
+        </ul>
+        <br>
+        <input type="checkbox" name="text">我同意以上所有条款并保证信息真实完整。
+        <br>
+        <button type="submit">提交</button><button type="reset">重置</button>
+    </form></div>
+
+</body>
+</html>

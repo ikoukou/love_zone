@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/login.css" type="text/css">
+    <title>登录页</title>
+</head>
+<body>
+    <div class="back">
+        <div class="login-form">
+            <form method="post" target="/login">
+                {{ csrf_input }}
+                <h1>❤ 欢 迎 回 来 ❤</h1>
+                <input name='username' placeholder="请输入用户名">
+                <input name='password' placeholder="请输入密码">
+                <button type="submit">登 录</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

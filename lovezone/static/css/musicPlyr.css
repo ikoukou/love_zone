@@ -1,0 +1,246 @@
+
+.music {
+  position: relative;
+  top: 200px;
+  width: 100%;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: rgba(133, 133, 133, 0.3);
+}
+
+.music .music_box {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  width: 50%;
+}
+
+.lrc_box {
+  width: calc(100%-88px);
+  padding-bottom: 10px;
+  background-color: rgba(188, 249, 179, 0);
+  text-align: center;
+  margin-left: 88px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.song {
+  font-size: 0.85rem;
+  color: #232323;
+  border-radius: 5px;
+  text-align: center;
+  width: calc(100%-88px);
+  margin-left: 88px;
+  height: 20px;
+  background-color: rgba(215, 246, 212, 0);
+}
+
+#singerName {
+  font-size: 0.8rem;
+  color: #747474;
+}
+
+.plyr__controls__item.plyr__volume,
+.plyr__controls__item.plyr__menu {
+  display: none;
+}
+
+/*搜索建议sug*/
+td{
+  color: #676767;
+}
+td:hover{
+  background-color: #d4edff;
+  color: #f93030;
+}
+
+/*搜索框与搜索按钮父级div*/
+.music .search {
+  padding-bottom: 10px;
+  padding-top: 5px;
+  height: fit-content;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*搜索框div*/
+.search_box {
+  display: inline-block;
+  width: calc(100% - 70px);
+  margin: 0 auto;
+}
+
+/*搜索框样式*/
+#search_box {
+  background-color: rgba(246, 250, 255, 0.94);
+  padding-right: 0px;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border-width: 0px;
+  padding-left: 25px;
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition-duration: 50ms;
+}
+
+/*搜索框聚焦*/
+#search_box:focus {
+  padding-left: 23.5px;
+  border-radius: 10px;
+  outline: 0;
+  height: 37px;
+  border-width: 1.5px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+/*搜索按钮div*/
+.search_btn {
+  display: inline-block;
+}
+
+/*搜索按钮样式*/
+#search_btn {
+  width: 55px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  border-width: 1px;
+  border-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/*搜索按钮点击*/
+#search_btn:hover {
+  background-color: #e1f5ff;
+  border-width: 2px;
+  border-color: #000000;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  color: #ff7b00;
+}
+
+/*播放器按钮样式*/
+.button_next:hover, .button_previous:hover, .button_playback:hover, .button_download:hover{
+  background-color: #ff0000;
+  color: #e1f5ff;
+}
+
+
+/*列表总div*/
+.searchORlist {
+  padding-top: 5px;
+  background-color: rgba(255, 255, 255, 0.585);
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: visible;
+}
+
+/*按钮盒子*/
+.btn_box{
+  background-color: #ffffff97;
+  margin: 0 auto;
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  font-size: 0;
+}
+
+/*搜索与列表选择按钮*/
+#listBtn,#resultBtn{
+  background-color: #00000000;
+  border: 0px;
+  border-radius: 20px;
+  width: 50%;
+  height: 100%;
+  outline: none;
+  transition-duration: 200ms;
+}
+
+
+/*歌曲列表div*/
+.songList {
+  background-color: rgba(234, 255, 255, 0);
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px 10px 5px 10px;
+}
+#songList {
+  background-color: #ffffff00;
+  width: 100%;
+  height: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 10px;
+}
+
+.iframe{
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px 0 10px 0;
+}
+
+.footnote{
+  background-color: rgba(255, 255, 255, 0.784);
+  font-size: 14px;
+  height: 100px;
+  text-align: center;
+  color: #636363;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+a{
+  color: #3980b2;
+  text-decoration: none;
+}
+
+.music dialog {
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  margin: 0 auto;
+  height: fit-content;
+  border-radius: 15px;
+  border-width: 2.5px;
+  border-color: #ffffff;
+  text-align: center;
+  line-height: 80px;
+}
+
+.lrc, .clear{
+  color: #696969;
+  padding: 10px 0 10px 0;
+  transition-duration: 100ms;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.img {
+  float: left;
+}

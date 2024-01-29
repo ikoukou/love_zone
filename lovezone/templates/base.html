@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block header %}
+    {% endblock %}
+    <link rel="stylesheet" href="/static/css/my.css" type="text/css">
+</head>
+<body>
+    <div class="daohang1">
+        <h2 class="top">♥ 情侣空间 ♥</h2>
+        <div class="user">
+            <img src={{ user.avatar }}>
+            <span>{{ user.nickname }}</span>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><img src="/static/image/爱心.png"><a href="/">首页</a></li>
+                <li><img src="/static/image/日志.png"><a href="/timeline">大事记</a></li>
+                <li><img src="/static/image/影像拍摄申请.png"><a>回忆片断</a></li>
+                <li><img src="/static/image/播放器.png"><a href="/music">音乐站</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="back">
+        <canvas></canvas>
+        {% block printer %}
+        {% endblock %}
+    </div>
+    {% block content %}
+    {% endblock %}
+</body>
+{% block scripts %}
+{% endblock %}
+<script src="/static/scripts/sakura.js"></script>
+<script src="/static/scripts/daohang_show.js"></script>
+</html>

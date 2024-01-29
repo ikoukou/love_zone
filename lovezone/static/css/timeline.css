@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+.timeline {
+    position: relative;
+    top: 400px;
+    width: 804px;
+    height: fit-content;
+    min-height: 2000px;
+    margin: 0px auto;
+}
+.timeline:before {
+    content: "";
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(248, 129, 193);
+}
+.timeline-block {
+    position: relative;
+    width: 800px;
+    min-height: 300px;
+    height: auto;
+}
+.timeline .left {
+    width: 400px;
+    height: auto;
+    float: left;
+    padding-right: 50px;
+}
+.timeline .right {
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-left: 50px;
+}
+.timeline .left .content {
+    background-color: rgb(255, 185, 249);
+    min-height: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 3%;
+}
+.timeline .right .content {
+    background-color: rgb(255, 213, 255);
+    min-height: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 3%;
+}
+.timeline .content .words {
+    height: auto;
+    text-align: center;
+    font-family: 'mitao';
+    font-size: 20px;
+    font-weight: bolder;
+}
+.timeline .content .words img {
+    width: 330px;
+    height: 200px;
+}
+
+/* 时间线中间小黑点 */
+.timeline-block:before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 50%;
+    transform: translateX(9px);
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+/* 事件框小边角 */
+.timeline .tag {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-10px);
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 20px solid transparent;
+}
+.timeline .left .tag {
+    left: 350px;
+    border-left-color: rgb(255, 185, 249);
+}
+.timeline .right .tag {
+    right: 350px;
+    border-right-color: rgb(255, 213, 255);
+}
+
+/* 恋爱纪念日计时器 */
+.timer {
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    font-family: 'zhuzi';
+    font-weight: bold;
+    background-color: rgba(100, 100, 100, 0.2);
+    text-align: center;
+}
+.timer .timer-count {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 62, 165);
+}

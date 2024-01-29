@@ -1,0 +1,243 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'zhuzi'; 
+    src:url('../font/ZhuZiAWan-2.ttc') format('truetype');
+}
+@font-face {
+    font-family: 'mitao';
+    src:url('../font/AaPrincessPeach-2.ttf') format('truetype');
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.daohang1{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height:60px;
+    width: 100%;
+    border-top: 5px solid pink;
+    border-bottom: 2px solid #edeef0;
+    transition: 0.5s linear;
+    line-height: 50px;
+    /* position: relative; */
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    z-index: 9999;
+}
+.daohang1:hover{
+    background-color: rgb(250, 224, 244);
+}
+.daohang1:after{
+    width: 0%;
+    position: absolute;
+    content: " ";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background:rgb(255, 228, 255);
+    transition: 0.5s linear;
+}
+.daohang1:hover:after{
+    width: 100%;
+} 
+.daohang1 .top{
+    float: left;
+    width: 200px;
+    height: 53px;
+    margin: 0;
+    text-align: center;
+    font-family: "mitao";
+    font-size: 30px;
+    font-weight: bolder;
+    color:#130e14
+}
+.daohang1 .nav{
+    float: right;
+    width: 480px;
+    height: 53px;
+}
+.daohang1 .nav ul{
+    float: left;
+    cursor: default;
+}
+.daohang1 .nav ul li{
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 53px;
+    line-height: 53px;
+    list-style: none;
+    text-align: center;
+    /* transition: border-bottom 0.5s; */
+}
+.daohang1 .nav ul li::after {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+    width: 0px;
+    height: 40px;
+    content: '';
+    background-color: aqua;
+    max-width: 120px;
+    transition: all 0.5s;
+}
+.daohang1 .nav ul li:hover{
+    background-color:#ffffff;
+    color: #ff8400;
+    border-bottom: 4px solid rgb(112, 217, 231) ;
+}
+.daohang1 .nav ul li:hover a{
+    color: #ff8400;
+}
+.daohang1 a{
+    line-height: 53px;
+    font-size: 17px;
+    font-family: "mitao";
+    font-weight: bolder;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.daohang1 img{
+    vertical-align: middle;
+}
+.daohang1 .user{
+    float: right;
+    width: 120px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "mitao";
+    font-weight: normal;
+}
+.daohang1 .user img{
+    vertical-align: center;
+}
+.back{
+    position: fixed;
+    background-image: url("../image/1161108927.jpg");
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
+
+.articles {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    border-left: 5px solid #ccc;
+    border-right: 5px solid #ccc;
+    text-align: center;
+}
+.articles .news{
+    display: inline-block;
+    width: 320px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 40px 30px 0 30px;
+}
+.articles .news h2{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.articles .news ul{
+    text-align: left;
+    list-style: none;
+}
+.articles .news ul li{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.desk {
+    margin: 0 auto;
+    width: 1800px;
+    height: 1000px;
+    background-color: rgb(255, 192, 192);
+}
+.desk .left{
+    float: left;
+    width: 100px;
+    height: 1000px;
+    background-color: aquamarine;
+}
+.desk .right{
+    float: right;
+    width: 1680px;
+    height: 1000px;
+    background-color: rgb(245, 219, 223);
+}
+.desk .right li {
+    float: left;
+    list-style: none;
+    width: 320px;
+    height: 490px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f5c99b;
+}
+.desk .right li:nth-child(5n){
+    margin-right: 0px;
+}
+
+.printer{
+    position:relative;
+    text-align: center;
+    top: -550px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(42, 54, 54, 0.5);
+}
+.printer .title{
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: auto;
+    font-family: "mitao";
+    font-weight: bolder;
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 80px;
+}
+.printer .text{
+    margin: 0 auto;
+    font-family: "mitao";
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 80px;
+}
+.printer .cursor{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 80px;
+    opacity: 0;
+    animation: flash 0.5s linear infinite;
+}
+@keyframes flash{
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
