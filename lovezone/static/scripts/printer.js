@@ -1,11 +1,4 @@
 const word = document.querySelector('.text')
-// let str = '如果，樱花掉落的速度是每秒5厘米，那么两颗心需要多久才能靠近?';
-// for(let i=1; i<=str.length; i++){
-//     setTimeout(
-//         function(){
-//             word.innerHTML = str.substring(0, i);
-//         }, (i-1)*300);
-// }
 let strs = ["如果，","樱花掉落的速度","是每秒5厘米.","那么两颗心,","需要多久才能靠近?"];
 let index=0;
 let charIndex=0;

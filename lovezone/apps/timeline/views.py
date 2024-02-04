@@ -1,6 +1,7 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render
 from django.views import View
+from timeline.models import Timeline
 
 
 class TimelineView(LoginRequiredMixin, View):
@@ -8,4 +9,7 @@ class TimelineView(LoginRequiredMixin, View):
     redirect_field_name = "redirect_to"
 
     def get(self, request):
-        return render(request, 'timeline.html')
+        result = {
+            "timeline_content": Timeline.objects.all().order_by('-id')
+        }
+        return render(request, 'timeline.html', context=result)

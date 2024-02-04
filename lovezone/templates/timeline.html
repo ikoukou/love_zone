@@ -5,11 +5,11 @@
 {% endblock %}
 {% block content %}
     <div id="timer" class="timer">
-		<div style="font-size: 50px; font-weight: bolder;">
+		<div style="font-size: 50px; font-weight: bolder; color: white;">
             今天是我们走过的
         </div>
         <br>
-        <div>
+        <div style="color: white;">
             第<span class="timer-count" id="year"></span>年
             第<span class="timer-count" id="day"></span>日
             <span class="timer-count" id="hour"></span>时
@@ -19,77 +19,19 @@
 	</div>
     <div class="timeline">
         <div class="timeline-block">
-            <div class="left">
+            {% for unit in timeline_content %}
+            <div class="timeline-unit">
                 <div class="tag"></div>
                 <div class="content">
                     <div class="words">
-                        2023年5月18日，小站建成
+                        {{ unit.content }}
                         <br><br>
-                        <img src="/static/image/我们的故事标题.png">
+                        <img src={{ unit.image }}>
                     </div>
                     <div class="datetime"></div>
                 </div>
             </div>
-        </div>
-        <div class="timeline-block">
-            <div class="right">
-                <div class="tag"></div>
-                <div class="content">
-                    <div class="words">
-                        2020年5月18日，我们结婚了
-                        <br><br>
-                        <img src="/static/image/结婚.png" width="330px" height="200px">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="left">
-                <div class="tag"></div>
-                <div class="content">
-                    <div class="words">
-                        2020年，我们开始异地的生活
-                        <br><br>
-                        <img src="/static/image/异地.png" width="330px" height="200px">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="right">
-                <div class="tag"></div>
-                <div class="content">
-                    <div class="words">
-                        2015年5月18日，我们在一起了
-                        <br><br>
-                        <img src="/static/image/第一天.png" width="330px" height="200px">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="left">
-                <div class="tag"></div>
-                <div class="content">
-                    <div class="words">
-                        2011年，我们一起入学
-                        <br><br>
-                        <img src="/static/image/大学.png" width="330px" height="200px">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="right">
-                <div class="tag"></div>
-                <div class="content">
-                    <div class="words">
-                        若干年以前，两个新生命
-                        <br><br>
-                        <img src="/static/image/婴儿.png" width="330px" height="200px">
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}

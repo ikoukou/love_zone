@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
 }
 html{
     height: 100%;
@@ -19,34 +20,36 @@ html{
 body{
     height: 100%;
 }
+a {
+    color: inherit; /* 继承父元素的颜色 */
+    text-decoration: none; /* 去掉下划线 */
+}
 .daohang1{
     position: fixed;
     top: 0px;
     left: 0;
-    height:60px;
+    height: 60px;
     width: 100%;
-    border-top: 5px solid pink;
-    border-bottom: 2px solid #edeef0;
     transition: 0.5s linear;
-    line-height: 50px;
-    /* position: relative; */
+    line-height: 60px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
     z-index: 9999;
 }
 .daohang1:hover{
-    background-color: rgb(250, 224, 244);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 .daohang1:after{
     width: 0%;
     position: absolute;
-    content: " ";
+    content: "";
     top: 0;
     bottom: 0;
     left: 0;
     z-index: -1;
-    background:rgb(255, 228, 255);
+    background:rgba(0, 0, 0, 0.3);
     transition: 0.5s linear;
 }
 .daohang1:hover:after{
@@ -55,18 +58,18 @@ body{
 .daohang1 .top{
     float: left;
     width: 200px;
-    height: 53px;
+    height: 60px;
     margin: 0;
     text-align: center;
     font-family: "mitao";
     font-size: 30px;
     font-weight: bolder;
-    color:#130e14
+    color: #ffffff;
 }
 .daohang1 .nav{
     float: right;
     width: 480px;
-    height: 53px;
+    height: 60px;
 }
 .daohang1 .nav ul{
     float: left;
@@ -76,50 +79,40 @@ body{
     position: relative;
     float: left;
     width: 120px;
-    height: 53px;
-    line-height: 53px;
     list-style: none;
-    text-align: center;
-    /* transition: border-bottom 0.5s; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "mitao";
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all .7s;
 }
-.daohang1 .nav ul li::after {
+.daohang1 .nav ul li::before{
+    content: "";
     position: absolute;
-    display: block;
-    bottom: 0px;
+    top: 0;
     left: 0;
-    z-index: -1;
-    width: 0px;
-    height: 40px;
-    content: '';
-    background-color: aqua;
-    max-width: 120px;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid #ff8400;
     transition: all 0.5s;
+}
+.daohang1 .nav ul li:hover::before{
+    width: 100%;
 }
 .daohang1 .nav ul li:hover{
     background-color:#ffffff;
     color: #ff8400;
-    border-bottom: 4px solid rgb(112, 217, 231) ;
-}
-.daohang1 .nav ul li:hover a{
-    color: #ff8400;
-}
-.daohang1 a{
-    line-height: 53px;
-    font-size: 17px;
-    font-family: "mitao";
-    font-weight: bolder;
-    color: #000000;
-    text-decoration: none;
-    padding-left: 5px;
 }
 .daohang1 img{
     vertical-align: middle;
+    margin-right: 5px;
 }
 .daohang1 .user{
     float: right;
     width: 120px;
-    height: 53px;
-    line-height: 53px;
     text-align: center;
     font-size: 17px;
     font-family: "mitao";
@@ -134,67 +127,6 @@ body{
     background-size: cover;
     height:100%;
     width: 100%;
-}
-
-.articles {
-    width: 1000px;
-    height: auto;
-    margin: 0 auto;
-    border-left: 5px solid #ccc;
-    border-right: 5px solid #ccc;
-    text-align: center;
-}
-.articles .news{
-    display: inline-block;
-    width: 320px;
-    height: 400px;
-    margin: 50px auto;
-    padding: 40px 30px 0 30px;
-}
-.articles .news h2{
-    text-align: left;
-    font-size: 30px;
-    border-bottom: 1px solid #ccc;
-}
-.articles .news ul{
-    text-align: left;
-    list-style: none;
-}
-.articles .news ul li{
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px dashed #ccc;
-}
-.desk {
-    margin: 0 auto;
-    width: 1800px;
-    height: 1000px;
-    background-color: rgb(255, 192, 192);
-}
-.desk .left{
-    float: left;
-    width: 100px;
-    height: 1000px;
-    background-color: aquamarine;
-}
-.desk .right{
-    float: right;
-    width: 1680px;
-    height: 1000px;
-    background-color: rgb(245, 219, 223);
-}
-.desk .right li {
-    float: left;
-    list-style: none;
-    width: 320px;
-    height: 490px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    background-color: #f5c99b;
-}
-.desk .right li:nth-child(5n){
-    margin-right: 0px;
 }
 
 .printer{
