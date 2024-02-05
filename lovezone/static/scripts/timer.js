@@ -1,3 +1,4 @@
+/* 按秒刷新计时器 */
 function updateTime() {
     var now = new Date();
     var startDate = new Date("2015-05-18");
@@ -27,5 +28,19 @@ function updateTime() {
     document.getElementById("minute").textContent = currentMinute;
     document.getElementById("second").textContent = currentSecond;
 }
-
 setInterval(updateTime, 1000);
+
+/* 点击时间轴图片放大，再次点击关闭图片 */
+function zoomImage(img) {
+    var zoomedImg = document.createElement('div');
+    zoomedImg.className = 'zoomed-image';
+    zoomedImg.onclick = function() {
+        document.body.removeChild(zoomedImg);
+    };
+
+    var imgElement = document.createElement('img');
+    imgElement.src = img.src;
+
+    zoomedImg.appendChild(imgElement);
+    document.body.appendChild(zoomedImg);
+}

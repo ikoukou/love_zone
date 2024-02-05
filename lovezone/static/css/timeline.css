@@ -18,6 +18,7 @@ body{
     min-height: 2000px;
     margin: 0px auto;
 }
+/* 时间轴线伪类 */
 .timeline:before {
     content: "";
     width: 10px;
@@ -27,34 +28,44 @@ body{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgb(248, 129, 193);
+    background-color: rgba(255, 255, 255, 0.493);
 }
 .timeline-block {
     position: relative;
     width: 800px;
     min-height: 300px;
     height: auto;
+    color: white;
 }
 .timeline-unit:nth-child(odd) {
     width: 400px;
     height: auto;
-    /* float: left; */
     padding-right: 50px;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .timeline-unit:nth-child(even) {
     width: 400px;
     height: auto;
-    /* float: right; */
     padding-left: 50px;
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .timeline-unit .content {
-    background-color: rgb(255, 185, 249);
+    display: inline-block;
+    background-color: rgba(216, 40, 157, 0.404);
     min-height: 300px;
     padding: 10px;
-    box-shadow: 5px 5px 10px black;
     border-radius: 3%;
+    transition: all 1s;
+}
+.timeline-unit .content:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+    background-color: rgba(255, 69, 208, 0.658);
 }
 .timeline-unit .content .words {
     height: auto;
@@ -69,37 +80,22 @@ body{
 }
 
 /* 时间线中间小黑点 */
-.timeline-block:before {
+.timeline-unit:before {
     position: absolute;
     content: '';
-    top: 50%;
-    right: 50%;
-    transform: translateX(9px);
     width: 10px;
     height: 10px;
     background-color: white;
     border-radius: 50%;
     border: 3px solid black;
 }
-
-/* 事件框小边角 */
-.timeline .tag {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-10px);
-    width: 0;
-    height: 0;
-    line-height: 0;
-    font-size: 0;
-    border: 20px solid transparent;
+.timeline-unit:nth-child(even):before {
+    left: 50%;
+    transform: translateX(-6px);
 }
-.timeline .left .tag {
-    left: 350px;
-    border-left-color: rgb(255, 185, 249);
-}
-.timeline .right .tag {
-    right: 350px;
-    border-right-color: rgb(255, 213, 255);
+.timeline-unit:nth-child(odd):before {
+    right: 50%;
+    transform: translateX(10px);
 }
 
 /* 恋爱纪念日计时器 */
@@ -117,4 +113,22 @@ body{
     font-size: 60px;
     font-weight: bold;
     color: rgb(240, 28, 141);
+}
+
+/* 图片放大的div */
+.zoomed-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.zoomed-image img {
+    max-width: 80%;
+    max-height: 80%;
 }

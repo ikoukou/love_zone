@@ -21,12 +21,11 @@
         <div class="timeline-block">
             {% for unit in timeline_content %}
             <div class="timeline-unit">
-                <div class="tag"></div>
                 <div class="content">
                     <div class="words">
                         {{ unit.content }}
                         <br><br>
-                        <img src={{ unit.image }}>
+                        <img src={{ unit.image }} onclick="zoomImage(this)">
                     </div>
                     <div class="datetime"></div>
                 </div>
