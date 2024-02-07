@@ -1,0 +1,120 @@
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 90%;
+    top: 200px;
+    margin: 0 auto;
+    padding: 0 50px 0 50px;
+}
+
+.left-slide {
+    position: relative;
+    width: 20%;
+    margin-right: 50px;
+}
+
+.person_info {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 50px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #ffffff, #ffbff1, #ffffff);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+}
+.person_info .count_info {
+    width: 100%;
+    font: bolder 15px 'zhuzi';
+    margin-bottom: 30px;
+}
+.person_info .direct_url {
+    width: 100%;
+    color: black;
+    background-color: #ffffff4b;
+    font: 13px bolder;
+    align-items: center;
+}
+
+.person_info .direct_url .url {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+.person_info .direct_url .url:hover {
+    background-color: #ffffff;
+}
+
+.articles_info {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+    background-color: bisque;
+    padding: 5px;
+}
+
+.articles_list {
+    position: relative;
+    width: 70%;
+    height: 1000px;
+    background-color: blueviolet;
+}
+
+.tags {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 50px 0;
+    background-color: blue;
+}
+
+.list {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: 50px 0 50px 0;
+    background-color: brown;
+}
+
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

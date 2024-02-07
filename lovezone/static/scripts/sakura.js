@@ -2,8 +2,8 @@
 const canvas = document.querySelector('canvas');
 
 // 设置canvas画布的宽高为浏览器视口宽高
-canvas.width = 1846;
-canvas.height = 950;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 // 使用2d的绘图方式
 const ctx = canvas.getContext('2d');

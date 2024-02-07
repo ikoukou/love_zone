@@ -13,9 +13,8 @@ body{
 .timeline {
     position: relative;
     top: 400px;
-    width: 804px;
+    width: 80%;
     height: fit-content;
-    min-height: 2000px;
     margin: 0px auto;
 }
 /* 时间轴线伪类 */
