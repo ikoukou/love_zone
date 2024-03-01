@@ -1,19 +1,19 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* 全局按列对齐格式 */
 .flex-col {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
-
+/* 全局按行对齐格式 */
 .flex-row {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.flex {
-    display: flex;
     align-items: center;
     justify-content: space-around;
 }
@@ -33,7 +33,7 @@
     width: 20%;
     margin-right: 50px;
 }
-
+/* 个人信息块 */
 .person_info {
     position: relative;
     width: 100%;
@@ -60,7 +60,6 @@
     font: 13px bolder;
     align-items: center;
 }
-
 .person_info .direct_url .url {
     display: flex;
     width: 100%;
@@ -72,21 +71,45 @@
 .person_info .direct_url .url:hover {
     background-color: #ffffff;
 }
-
+/* 文章信息块 */
 .articles_info {
     position: relative;
     width: 100%;
-    height: 250px;
     margin-bottom: 50px;
-    background-color: bisque;
     padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #ffffff, #ffffffd5, #ffffff);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+    padding: 20px;
+    font: 20px bolder;
+}
+.articles_info ul{
+    list-style: none;
+    padding: 30px 0 0 0;
+    font: 17px bolder;
+}
+.articles_info ul li{
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    padding-left: 20px;
+    transition: all .5s;
+}
+.articles_info ul li:hover {
+    background-color: #ffffff;
+    padding: 0 20px 0 40px;
+    color: #ff00c8;
 }
 
+/* 文章列表 */
 .articles_list {
     position: relative;
     width: 70%;
     height: 1000px;
-    background-color: blueviolet;
 }
 
 .tags {
@@ -94,17 +117,87 @@
     width: 100%;
     height: 100px;
     margin: 0 0 50px 0;
-    background-color: blue;
+    padding-left: 30px;
+    font: bolder 30px 'mitao';
+    line-height: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.329);
 }
 
 .list {
     position: relative;
     width: 100%;
-    height: 800px;
     margin: 50px 0 50px 0;
-    background-color: brown;
 }
 
+.article {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    color: black;
+    background-color: #ffffff69;
+    margin-bottom: 40px;   
+    transition: all .5s; 
+}
+.article:hover {
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+    background-color: rgba(255, 69, 209, 0.514);
+}
+.article .article_img{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.article:nth-child(odd) .article_img {
+    order: 1;
+}
+.article_img img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+.article:hover .article_img img{
+    width: 120%;
+    height: 120%;
+}
+.article .article_content{
+    width: 50%;
+    height: 100%;
+    margin-left: 0 auto;
+    padding: 20px 40px 20px 40px;
+}
+.article:nth-child(even) .article_content {
+    text-align: right;
+}
+.article_content_h {
+    font-size: 30px;
+}
+.article_content_p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    margin: 10px 0 10px 0;
+}
+.article_content_t {
+    font-size: 12px;
+    background-color: rgba(255, 124, 17, 0.616);
+    color: #ffffff;
+    margin: 0 5px 10px 0;
+    padding: 2px 5px 2px 5px;
+    transition: all .5s;
+}
+.article_content_t:hover {
+    background-color: rgba(128, 128, 128, 0.308);
+    color: black;
+}
+.article_content_i {
+    border-top: 1px solid grey;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
 
 @keyframes gradientBG {
     0% {

@@ -31,31 +31,28 @@ body{
 }
 .timeline-block {
     position: relative;
-    width: 800px;
+    width: 100%;
     min-height: 300px;
     height: auto;
     color: white;
 }
-.timeline-unit:nth-child(odd) {
-    width: 400px;
-    height: auto;
-    padding-right: 50px;
-    margin-right: auto;
+.timeline-unit {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.timeline-unit:nth-child(odd) {
+    padding-right: 50px;
+    margin-right: auto;
+}
 .timeline-unit:nth-child(even) {
-    width: 400px;
-    height: auto;
     padding-left: 50px;
     margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .timeline-unit .content {
     display: inline-block;
+    width: 100%;
     background-color: rgba(216, 40, 157, 0.404);
     min-height: 300px;
     padding: 10px;
@@ -70,12 +67,12 @@ body{
     height: auto;
     text-align: center;
     font-family: 'mitao';
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 .timeline-unit .content .words img {
-    width: 330px;
-    height: 200px;
+    position: relative;
+    max-width: 80%;
 }
 
 /* 时间线中间小黑点 */
@@ -90,11 +87,11 @@ body{
 }
 .timeline-unit:nth-child(even):before {
     left: 50%;
-    transform: translateX(-6px);
+    transform: translateX(-50%);
 }
 .timeline-unit:nth-child(odd):before {
     right: 50%;
-    transform: translateX(10px);
+    transform: translateX(50%);
 }
 
 /* 恋爱纪念日计时器 */
