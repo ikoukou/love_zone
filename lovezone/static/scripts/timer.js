@@ -32,6 +32,7 @@ setInterval(updateTime, 1000);
 
 /* 点击时间轴图片放大，再次点击关闭图片 */
 function zoomImage(img) {
+    /* 定义放大图片区域及放大图片的两个样式 */
     var zoomedImg = document.createElement('div');
     zoomedImg.className = 'zoomed-image';
     zoomedImg.onclick = function() {
@@ -41,6 +42,7 @@ function zoomImage(img) {
     var imgElement = document.createElement('img');
     imgElement.src = img.src;
 
+    /* 在放大图片区域里增加图片样式，在页面体里增加区域样式 */
     zoomedImg.appendChild(imgElement);
     document.body.appendChild(zoomedImg);
 }

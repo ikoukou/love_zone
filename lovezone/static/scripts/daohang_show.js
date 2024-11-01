@@ -14,8 +14,26 @@ window.onscroll = function() {
   }
 };
 
-
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 };
+
+// var nav_li_ul = document.querySelector('.nav-li-ul');
+// var menu_ul = document.querySelector('.menu-ul');
+// const l = nav_li_ul.offsetLeft;
+// menu_ul.style.left = l + 'px';
+// const h = nav_li_ul.offsetHeight;
+// menu_ul.style.top = h + 'px';
+// menu_ul.addEventListener('mouseover', () => {
+//   menu_ul.style.display = 'block';
+// })
+// menu_ul.addEventListener('mouseout', () => {
+//   menu_ul.style.display = 'none';
+// })
+// nav_li_ul.addEventListener('mouseover', () => {
+//   menu_ul.style.display = 'block';
+// })
+// nav_li_ul.addEventListener('mouseout', () => {
+//   menu_ul.style.display = 'none';
+// })

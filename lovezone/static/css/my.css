@@ -56,7 +56,7 @@ a {
 .daohang1:hover:after{
     width: 100%;
 } 
-.daohang1 .top{
+.top{
     float: left;
     width: 200px;
     height: 60px;
@@ -67,30 +67,31 @@ a {
     font-weight: bolder;
     color: #ffffff;
 }
-.daohang1 .nav{
+.nav{
     float: right;
     width: 480px;
     height: 60px;
 }
-.daohang1 .nav ul{
+.nav-ul{
     float: left;
     cursor: default;
 }
-.daohang1 .nav ul li{
+.nav-ul>.nav-li, .nav-ul>.nav-li-ul{
     position: relative;
     float: left;
     width: 120px;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-family: "mitao";
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     transition: all .7s;
 }
-.daohang1 .nav ul li::before{
+.nav-ul>.nav-li::before{
     content: "";
     position: absolute;
     top: 0;
@@ -98,15 +99,60 @@ a {
     width: 0%;
     height: 100%;
     border-bottom: 3px solid #ff8400;
-    transition: all 0.5s;
+    transition: all 1s;
 }
-.daohang1 .nav ul li:hover::before{
+.nav-ul>.nav-li:hover::before{
     width: 100%;
 }
-.daohang1 .nav ul li:hover{
+.nav-ul>.nav-li:hover, .nav-ul>.nav-li-ul:hover{
     background-color:#ffffff;
     color: #ff8400;
 }
+.nav-li-ul>.menu-ul{
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    max-height: 0px;
+    background-color: #f9f9f97a;
+    width: 100%;
+    color: white;
+}
+.nav-li-ul>.menu-ul>.menu-li{
+    position: relative;
+    list-style: none;
+    padding-left: 10px;
+    color: rgb(54, 54, 54);
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: lighter;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    transition: all 1s;
+}
+.nav-li-ul:hover>.menu-ul{
+    max-height: 1000px;
+    text-decoration: none;
+}
+.menu-ul>.menu-li:hover{
+    background-color:#ffffff;
+    color: #292929;
+    padding-left: 15px;
+    font-weight: bolder;
+}
+.menu-ul>.menu-li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 98%;
+    border-bottom: 2px solid #ff7de9;
+    transition: all 1s;
+}
+.menu-ul>.menu-li:hover::before{
+    width: 100%;
+}
+
 .daohang1 img{
     vertical-align: middle;
     margin-right: 5px;
