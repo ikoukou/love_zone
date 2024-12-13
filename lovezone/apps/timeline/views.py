@@ -5,9 +5,6 @@ from timeline.models import Timeline
 
 
 class TimelineView(LoginRequiredMixin, View):
-    login_url = "/login/"
-    redirect_field_name = "redirect_to"
-
     def get(self, request):
         result = {
             "timeline_content": Timeline.objects.all().order_by('-id')

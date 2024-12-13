@@ -211,3 +211,6 @@ LOGGING = {
 
 AUTH_USER_MODEL = "index.Users"
 AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend']
+
+# 未登录用户的重定向, 使用基于类的视图并继承 LoginRequiredMixin
+LOGIN_URL = "/login/"

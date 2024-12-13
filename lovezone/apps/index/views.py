@@ -6,8 +6,5 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 class IndexView(LoginRequiredMixin, View):
-    login_url = "/login/"
-    redirect_field_name = "redirect_to"
-
     def get(self, request):
         return render(request, 'daohang.html')

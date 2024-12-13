@@ -8,9 +8,6 @@ from django.views import View
 
 
 class MusicView(LoginRequiredMixin, View):
-    login_url = "/login/"
-    redirect_field_name = "redirect_to"
-
     def get(self, request):
         if LoginRequiredMixin():
             return render(request, 'music.html')
