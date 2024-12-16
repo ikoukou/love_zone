@@ -21,22 +21,17 @@ class SongListView(View):
 class RidView(View):
     def get(self, request):
         rid = request.GET['rid']
-        url = "http://music.cyrilstudio.top/song/url?id=" + str(rid)
-        res = requests.get(url=url).json()['data'][0]['url']
-        res = json.dumps(res)
-        return HttpResponse(res, content_type='application/json', status=200)
-    # def get(self, request):
-    #     rid = request.args.get('rid')
-    #     url = f'http://www.kuwo.cn/api/v1/www/music/playUrl?mid={rid}&type=convert_url3&br=320kmp3'
-    #     download_url = requests.get(url=url).json()["data"]["url"]
-    #     print(f'已获取到mp3文件链接=>\n{str(download_url)}')
-    #     return str(download_url)
+        url = "http://music.163.com/song/media/outer/url?id={}.mp3".format(rid)
+        #res = requests.get(url=url).json()['data'][0]['url']
+        #res = json.dumps(res)
+        return HttpResponse(url, content_type='application/json', status=200)
 
 
 class LrcView(View):
     def get(self, request):
         rid = request.GET['rid']
-        url = "http://music.cyrilstudio.top/lyric?id=" + str(rid)
+        url = "http://music.163.com/api/song/lyric?" \
+              "os=pc&id={}&lv=-1&kv=-1&tv=-1".format(rid)
         res = requests.get(url=url).json()['lrc']['lyric']
         li = []
         for i in res.split('\n')[:-1]:
@@ -48,12 +43,6 @@ class LrcView(View):
             li.append(lrc)
         li = json.dumps(li)
         return HttpResponse(li, content_type='application/json', status=200)
-    # def get(self, request):
-    #     rid = request.args.get('rid')
-    #     url = f'https://m.kuwo.cn/newh5/singles/songinfoandlrc?musicId={rid}&httpsStatus=1&reqId=4af22230-c8bd-11ed-af8a-55d47a6ff667'
-    #     lrc = requests.get(url=url).json()["data"]["lrclist"]
-    #     print('已获取到歌词\n\n')
-    #     return json.dumps(lrc)
 
 
 class SearchView(View):
@@ -61,7 +50,8 @@ class SearchView(View):
         music_name = request.GET['name']
         limit = request.GET['limit'] if 'limit' in request.GET else '30'
         offset = request.GET['offset'] if 'offset' in request.GET else '0'
-        url = "http://music.cyrilstudio.top/search?keywords=" + music_name + '&limit=' + limit + '&offset=' + offset
+        url = "http://music.163.com/api/search/get/web?csrf_token=hlpretag=&hlposttag=" \
+              "&s={}&type=1&offset={}&total=true&limit={}".format(music_name, offset, limit)
         res = requests.get(url=url).json()['result']['songs']
         songList = []
         for i in res:

@@ -1,5 +1,4 @@
 from django.core.exceptions import PermissionDenied
-from django.core.paginator import Paginator
 from django.shortcuts import render, redirect
 from django.views import View
 from django.contrib.auth import authenticate, login

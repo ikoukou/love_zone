@@ -1,5 +1,5 @@
 from django.urls import path
-from index import views
+from lovezone.apps.index import views
 
 
 urlpatterns = [

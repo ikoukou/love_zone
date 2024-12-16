@@ -1,8 +1,6 @@
 //获取搜索结果
 function getSearchResult(SearchContent) {
   var xhrList = new XMLHttpRequest();
-  // xhrList.open('get', 'http://service-4v0argn6-1314197819.gz.apigw.tencentcs.com/?name=' + SearchContent);
-  // xhrList.open('get', 'http://music.cyrilstudio.top/search?keywords=' + SearchContent);
   xhrList.open('get', '/music/search?name=' + SearchContent);
   xhrList.send();
   waitTime();  //计时
@@ -94,7 +92,6 @@ function remove() {
 function add_del_onclick() {
   for (let i = 0; i < displayList.length; i++) {
     document.getElementById(`del_btn${i}`).onclick = function () {
-      // console.log(`add_del_${i}按下了`)
       var pic = displayList[i]["pic"];
       pic = pic.replace(/\/\d+\//, "/300/");
       if (displayFlag == 1) {
@@ -122,7 +119,6 @@ function add_del_onclick() {
 function play_btn_onclick() {
   for (let i = 0; i < displayList.length; i++) {
     document.getElementById(`play_btn${i}`).onclick = function () {
-      // console.log(`play_${i}按下了`)
       var pic = displayList[i]["pic"];
       pic = pic.replace(/\/\d+\//, "/300/");
       var parameter = {

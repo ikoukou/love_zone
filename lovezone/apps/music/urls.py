@@ -1,5 +1,5 @@
 from django.urls import path
-from music import views
+from lovezone.apps.music import views
 
 
 urlpatterns = [

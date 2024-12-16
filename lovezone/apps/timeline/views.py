@@ -1,7 +1,7 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render
 from django.views import View
-from timeline.models import Timeline
+from lovezone.apps.timeline.models import Timeline
 
 
 class TimelineView(LoginRequiredMixin, View):
